@@ -3,9 +3,9 @@ Este repositório serve para guardar todo o material utilizado na UC de Programa
 
 Também tenho o repositório [Haskell Exercises](https://github.com/NullaSec/Haskell-Exercises) com exercícios que encontro na internet para praticar e as respetivas soluçoes.
 ### Atalhos para os ficheiros
-[Fichas](https://github.com/NullaSec/Programacao-Funcional/tree/main/Fichas)
+[Fichas](https://github.com/NullaSec/Universidade/tree/main/1-ano/Programacao-Funcional/Fichas)
 
-[50 Questões de Haskell](https://github.com/NullaSec/Programacao-Funcional/tree/main/50%20Quest%C3%B5es) 
+[50 Questões de Haskell](https://github.com/NullaSec/Universidade/tree/main/1-ano/Programacao-Funcional/50%20Quest%C3%B5es) 
 
 Exames (Coming Soon)
 
