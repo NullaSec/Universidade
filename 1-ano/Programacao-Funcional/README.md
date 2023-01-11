@@ -7,6 +7,6 @@ Também tenho o repositório [Haskell Exercises](https://github.com/NullaSec/Has
 
 [50 Questões de Haskell](https://github.com/NullaSec/Universidade/tree/main/1-ano/Programacao-Funcional/50%20Quest%C3%B5es) 
 
-Exames (Coming Soon)
+Testes e Exames (Coming Soon)
 
 Outros (Coming Soon)
