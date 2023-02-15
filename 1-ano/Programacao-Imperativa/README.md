@@ -1,7 +1,7 @@
 # Programação Imperativa
 Este repositório contém todo o meu trabalho para a cadeira de Programação Imperativa da Universidade do Minho. 
 
-Fichas
+[Fichas](https://github.com/NullaSec/Universidade/tree/main/1-ano/Programacao-Imperativa/Fichas)
 
 Testes (Coming Soon)
 
