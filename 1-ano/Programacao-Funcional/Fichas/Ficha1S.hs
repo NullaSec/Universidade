@@ -44,7 +44,7 @@ nRaizes :: Double -> Double -> Double -> Int
 nRaizes a b c
     | delta < 0 = 0
     | delta == 0 = 1
-    | otherwise = 2 
+    | otherwise = 2
     where delta = b^2 - 4*a*c
 
 -- (b)
@@ -108,6 +108,34 @@ stop _ = True
 safe :: Semaforo -> Semaforo -> Bool
 safe Vermelho _ = True
 safe _ Vermelho = True
-save _ _ = False 
+save _ _ = False
 
+-- 6.
+data Ponto = Cartesiano Double Double | Polar Double Double deriving (Show,Eq)
+-- (a)
+posx :: Ponto -> Double
+posx (Cartesiano x y) = x
+posx (Polar d r) = d * cos r
+
+-- (b)
+posy :: Ponto -> Double
+posy (Cartesiano x y) = y
+posy (Polar d r) = d * sin r
+
+-- (c)
+raio :: Ponto -> Double 
+raio (Cartesiano x y) = sqrt(x^2 + y^2)
+raio (Polar d r) = r
+
+-- (d)
+angulo :: Ponto -> Double 
+angulo (Cartesiano x1 y1) 
+    |x1==0 && y1==0 =0
+    |x1==0 && y1>0 = pi/2
+    |x1==0 && y1<0 = -pi/2
+    |x1>0 = atan (y1/x1)
+    |x1<0 && y1>=0 = atan (y1/x1) + pi
+    |otherwise = atan (y1/x1) - pi
+
+angulo (Polar d a) = a
 
