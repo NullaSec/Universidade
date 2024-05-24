@@ -9,7 +9,7 @@ Arquivo de trabalhos durante o meu percurso na Universidade do Minho (2022 - ? )
 [Laboratórios de Algoritmia I](https://github.com/NullaSec/Universidade/tree/main/1-ano/Lab-Algoritmia1)
 
 ### 2º Ano
-[Análise Numérica]()
+[Sistemas Operativos](https://github.com/NullaSec/Universidade/tree/main/2-ano/SistemasOperativos)
 
 [Laboratórios de Algoritmia II](https://github.com/NullaSec/Universidade/tree/main/2-ano/Lab-Algoritmia2)
 
