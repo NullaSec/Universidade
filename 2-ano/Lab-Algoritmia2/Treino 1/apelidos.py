@@ -13,14 +13,17 @@ nomes = ["Jose Carlos Bacelar Almeida",
 
 lista_nomes = []
 
-def num_apelidos(nome):
-    apelidos = nome.split()
-    n_a = len(apelidos) - 1
-    return n_a
-
 def apelidos(nomes):
-    lista_nomes = sorted(nomes, key = lambda nome: (num_apelidos(nome), nome))
-    return lista_nomes
+    dicNomes = {}
+    for nome in nomes:
+        apelidos = nome.split()
+        dicNomes[nome]=len(apelidos) - 1
+        
+    print(dicNomes)
+    
+    ordenados = sorted(nomes, key = lambda x: (dicNomes[x], x))
+        
+    return ordenados
         
 
         
