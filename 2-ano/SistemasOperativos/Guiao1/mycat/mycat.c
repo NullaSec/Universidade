@@ -3,16 +3,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define SIZE 100
-
+#define BUFFER 5
 
 void mycat() {
-    ssize_t bytes_lidos, bytes_escritos;
-    char buffer[SIZE];
+    char buffer[BUFFER];
+    ssize_t bytes_lidos;
     
-    while ((bytes_lidos = read(0, buffer, SIZE)) > 0){
-        printf("Li %ld bytes.\n", bytes_lidos);
-        bytes_escritos = write(1, buffer, bytes_lidos);
-        printf("Escrevi %ld bytes.\n\n", bytes_escritos);
+    while((bytes_lidos = read(0, buffer, BUFFER)) > 0){
+        write(1, buffer, bytes_lidos);
     }
 }
