@@ -15,7 +15,6 @@ void mycat() {
         perror("O ficheiro não foi aberto corretamente.");
         exit(1);
     }
-
     
     while((bytes_lidos = read(fd_ficheiro, buffer, BUFFER)) > 0){
         if (write(1, buffer, bytes_lidos) != bytes_lidos) {
