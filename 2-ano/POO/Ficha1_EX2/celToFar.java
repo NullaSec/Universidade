@@ -1,7 +1,7 @@
 package Ficha1_EX2;
 import java.util.Scanner;
 
-public class exercicios2 {
+public class celToFar {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Escreve a temperatura em Celcius: ");

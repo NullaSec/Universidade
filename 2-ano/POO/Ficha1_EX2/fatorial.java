@@ -6,7 +6,7 @@ public class fatorial {
     public static long factorial(int num){
         int atual = num;
 
-        while (atual > 0){
+        while (num > 0){
             atual *= num - 1;
             num -= 1;
         }
@@ -23,5 +23,7 @@ public class fatorial {
         num = input.nextInt();
 
         System.out.println("O fatorial de " + num + " é " + factorial(num));
+
+        input.close();
     }
 }
