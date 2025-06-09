@@ -25,7 +25,7 @@ public class ex2 {
         LocalDate dataProx = datas.dataMaisProxima(data);
         System.out.println("A data mais próxima é: " + dataProx);
 
-        System.err.println("Estas são as datas guardadas no array:");
+        System.err.println("Estas são as datas guardadas no array:"); // Exercício 2 c)
         datas.toString();
 
         sc.close();
